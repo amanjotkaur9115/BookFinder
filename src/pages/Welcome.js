@@ -18,22 +18,22 @@ const Welcome = () => {
           fontWeight: "bold",
           color: "black",
           fontFamily: "Inter-Black",
-          backgroundColor: "yellow",
+          backgroundColor: "blue",
           paddingHorizontal: 10,
         }}>
-        NEWS
+        BOOK
       </Text>
       <Text
         style={{
           fontSize: 45,
           fontWeight: "bold",
-          color: "black",
+          color: "white",
           fontFamily: "Inter-Black",
-          borderColor: "yellow",
+          borderColor: "blue",
           borderWidth: 2,
           padding: 12,
         }}>
-        READER APP
+        FINDER APP
       </Text>
 
       <View style={{ marginTop: 200 }}>
