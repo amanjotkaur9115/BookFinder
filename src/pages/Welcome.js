@@ -19,7 +19,7 @@ const Welcome = () => {
             style={{
               flex: 4,
               justifyContent: "center",
-              alignItems: "center",
+              alignItems: "center"
             }}>
             <Text
               style={{
