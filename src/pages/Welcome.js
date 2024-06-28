@@ -5,7 +5,7 @@ import CustomButton from "../components/CustomButton";
 import Loader from "../components/Loaders";
 import { containerStyle } from "../styles";
 
-const WelcomeImage = require("../../assets/img/welcome.jpg");
+const WelcomeImage = require("../../assets/img/Welcome.jpg");
 
 const Welcome = () => {
   const [isLoading, setIsLoading] = useState(true);
