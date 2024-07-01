@@ -23,7 +23,7 @@ const BottomTabNavigation = () => {
           component={Home}
           listeners={{
             tabPress() {
-              setTabBackground("red");
+              setTabBackground("teal");
             },
           }}
           options={{
@@ -38,7 +38,7 @@ const BottomTabNavigation = () => {
           component={Details}
           listeners={{
             tabPress() {
-              setTabBackground("pink");
+              setTabBackground("gray");
             },
           }}
           options={{
@@ -58,7 +58,7 @@ const BottomTabNavigation = () => {
           component={Home}
           listeners={{
             tabPress() {
-              setTabBackground("green");
+              setTabBackground("violet");
             },
           }}
           options={{
