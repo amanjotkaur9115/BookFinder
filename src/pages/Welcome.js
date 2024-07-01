@@ -26,7 +26,7 @@ const Welcome = () => {
                 fontSize: 40,
                 fontWeight: "bold",
                 color: "black",
-                backgroundColor: "yellow",
+                backgroundColor: "BA7A2E",
                 paddingHorizontal: 10,
               }}>
               BOOK
@@ -36,7 +36,7 @@ const Welcome = () => {
                 fontSize: 25,
                 fontWeight: "bold",
                 color: "#fff",
-                borderColor: "yellow",
+                borderColor: "BA7A2E",
                 borderWidth: 2,
                 padding: 12,
                 width: 233,
