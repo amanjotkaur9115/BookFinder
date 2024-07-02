@@ -11,7 +11,7 @@ const Tab = createMaterialBottomTabNavigator();
 const BottomTabNavigation = () => {
   const [tabBackground, setTabBackground] = useState();
   return (
-    <NavigationContainer>
+
       <Tab.Navigator
         activeColor="black"
         inactiveColor="#3e2465"
@@ -69,7 +69,7 @@ const BottomTabNavigation = () => {
           }}
         />
       </Tab.Navigator>
-    </NavigationContainer>
+
   );
 };
 

@@ -7,8 +7,8 @@ import BottomTabNavigation from "./src/navigation/bottomNavigation/index";
 export default function App() {
   return (
     <>
-        {/* <Navigation /> */}
-        <BottomTabNavigation />
+        <Navigation />
+        {/* <BottomTabNavigation /> */}
     </>
   );
 }
