@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 
+import BottomTabNavigation from "../bottomNavigation";
+import HomeScreen from "../../pages/HomeScreen";
 import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
 import Welcome from "../../pages/Welcome";
@@ -16,6 +18,7 @@ const Navigation = () => {
         }}
         initialRouteName={"Welcome"}>
         <Stack.Screen name="Welcome" component={Welcome} />
+        <Stack.Screen name="BottomTab" component={BottomTabNavigation} />
       </Stack.Navigator>
     </NavigationContainer>
   );
