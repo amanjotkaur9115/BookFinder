@@ -6,7 +6,6 @@ import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
 import Welcome from "../../pages/Welcome";
 import { createStackNavigator } from "@react-navigation/stack";
-import BottomTabNavigation from "../bottomNavigation";
 
 const Navigation = () => {
   const Stack = createStackNavigator();
