@@ -1,5 +1,3 @@
-// HomeScreen.js
-
 import {
   ActivityIndicator,
   Button,
@@ -73,16 +71,9 @@ const HomeScreen = () => {
                   <Title style={styles.title}>{book.title}</Title>
                   <Paragraph style={styles.author}>
                     Subject Times :
-                    {/* {book.authors
-                      ? book.authors.map((author) => author.name).join(", ")
-                      : "Unknown"} */}
+
                     {book?.subject_times}
                   </Paragraph>
-                  {/* <Paragraph style={styles.description}>
-                    {book.description
-                      ? book.description.value || book.description
-                      : "No description available."}
-                  </Paragraph> */}
                   <Button
                     mode="contained"
                     onPress={() => showModal(book)}

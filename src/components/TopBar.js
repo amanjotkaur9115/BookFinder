@@ -4,10 +4,7 @@ import { Appbar } from "react-native-paper";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { COLORS } from "../constants/Colors";
 
-const TopBar = ({ navigation }) => {
-  const _goBack = () => {
-    navigation.navigate("ComponentNavigation");
-  };
+const TopBar = () => {
 
   const _handleSearch = () => console.log("Searching");
 

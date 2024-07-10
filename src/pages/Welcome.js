@@ -1,14 +1,12 @@
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import React, { useState } from "react";
+import React from "react";
 
 import CustomButton from "../components/CustomButton";
-import Loader from "../components/Loaders";
 import { containerStyle } from "../styles";
 
 const WelcomeImage = require("../../assets/img/Welcome.jpg");
 
 const Welcome = ({ navigation }) => {
-  const [isLoading, setIsLoading] = useState(false);
   return (
     <>
       <ImageBackground

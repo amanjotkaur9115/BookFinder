@@ -1,4 +1,4 @@
-// SearchScreen.js
+
 
 import {
   ActivityIndicator,
