@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amanjot.BookFinder"
     },
     "web": {
       "favicon": ""
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f3917953-f151-45e8-a7f5-bb248e4ce607"
+      }
     }
   }
 }
